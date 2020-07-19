@@ -229,9 +229,8 @@ createElement(
   // 기타 최고 레벨 속성
   key: 'myKey',
   ref: 'myRef',
-  // If you are applying the same ref name to multiple
-  // elements in the render function. This will make `$refs.myRef` become an
-  // array
+  // 렌더링 함수의 여러 요소에 동일한 참조 이름을 적용하는 경우 
+  //이것은`$ refs.myRef`를 배열로 만듭니다  
   refInFor: true
 }
 ```
